@@ -35,19 +35,19 @@ Veri setine random NaN değerler eklendi ve sayısal değişkenler için median 
 ## Görselleştirmeler ve Analizler
 
 ### Tehlikeli vs Tehlikesiz Asteroidlerin Dağılımı
-<img src="img/hazardous_asteroids.png" width="200" height="100">
+<img src="img/hazardous_asteroids.png" width="400" height="200">
 
 ### Asteroidlerin Çap Dağılımı Analizi
-<img src="img/asteroid_diameters.png" width="200" height="100">
+<img src="img/asteroid_diameters.png" width="400" height="200">
 
 ### Hız ve Mesafe İlişkisi
-<img src="img/distance-velocity.png" width="200" height="100">
+<img src="img/distance-velocity.png" width="400" height="200">
 
 ### Box-Plot Diyagramı ve Analizi
-<img src="img/box-plot.png" width="200" height="100">
+<img src="img/box-plot.png" width="400" height="200">
 
 ### Korelasyon Analizi
-<img src="img/Correlation.png" width="200" height="100">
+<img src="img/Correlation.png" width="400" height="200">
 
 ## Sonuç ve Öneriler
 
