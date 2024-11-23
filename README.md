@@ -43,7 +43,7 @@ Veri setine random NaN değerler eklendi ve sayısal değişkenler için median 
 - Çok daha az sayıda (yaklaşık 8.000) asteroid tehlikeli kategorisinde.
 - Tehlikesiz ve tehlikeli asteroidler arasında yaklaşık 9:1 oranı mevcut.
 
-**Bu görselleştirme, veri tabanımızdaki asteroidlerin yalnızca küçük bir yüzdesinin Dünya için potansiyel tehlike oluşturduğunu açıkça ortaya koymaktadır.**
+##### **Bu görselleştirme, veri tabanımızdaki asteroidlerin yalnızca küçük bir yüzdesinin Dünya için potansiyel tehlike oluşturduğunu göstermektedir.**
 
 ### Asteroidlerin Çap Dağılımı Analizi
 <img src="img/asteroid_diameters.png" width="400" height="200">
