@@ -4,9 +4,10 @@
 NASA Near Earth Objects veri seti kullanılarak yapılan veri analizi projesi.
 
 ## Veri Seti
-- Kaynak: Kaggle NASA NEO Dataset
-- Boyut: [boyut bilgisi]
-- Değişken Sayısı: [değişken sayısı]
+- Kaynak: Kaggle NASA NEO Dataset (https://www.kaggle.com/datasets/sameepvani/nasa-nearest-earth-objects)
+- Boyut: [9.48 MB]
+- Değişken Sayısı: [10]
+  ['id', 'name', 'est_diameter_min', 'est_diameter_max', 'relative_velocity', 'miss_distance', 'orbiting_body', 'sentry_object', 'absolute_magnitude', 'hazardous']
 
 ## Analiz Adımları
 1. Veri Ön İşleme
