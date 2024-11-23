@@ -2,6 +2,7 @@
 
 ## Proje Hakkında
 NASA Near Earth Objects veri seti kullanılarak yapılan veri analizi projesi.
+(Kaggle Linki: https://www.kaggle.com/code/yasincanyilmazoglu/earth-objects-aygaz-data-analysis)
 
 ## Veri Seti
 - Kaynak: Kaggle NASA NEO Dataset (https://www.kaggle.com/datasets/sameepvani/nasa-nearest-earth-objects)
