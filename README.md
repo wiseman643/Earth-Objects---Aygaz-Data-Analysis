@@ -48,14 +48,46 @@ Veri setine random NaN değerler eklendi ve sayısal değişkenler için median 
 ### Asteroidlerin Çap Dağılımı Analizi
 <img src="img/asteroid_diameters.png" width="400" height="200">
 
-### Hız ve Mesafe İlişkisi
+Bu dağılım, veri setimizdeki asteroidlerin çoğunluğunun küçük çaplı olduğunu, çok az sayıda asterodin ise büyük çaplara sahip olduğunu göstermektedir.
+
+### Asteroid Hızı ve Mesafesi İlişkisi Analizi
 <img src="img/distance-velocity.png" width="400" height="200">
+
+## Asteroid Hızı ve Mesafesi İlişkisi Analizi
+
+1. Grafik iki ana değişkeni gösteriyor:
+   - X ekseni: Göreceli Hız
+   - Y ekseni: Kaçırma Mesafesi (10^7 biriminde)
+
+2. Noktalar tehlike seviyesine göre renklendirilmiş:
+   - Açık pembe: Tehlikesiz asteroidler
+   - Koyu mavi: Tehlikeli asteroidler
+
+3. Dağılım özellikleri:
+   - Tehlikeli asteroidler daha yüksek hızlarda yoğunlaşmış.
+   - Tehlikesiz asteroidler daha dengeli dağılmış.
+   - Çoğu asteroid 0-200,000 birim hız aralığında.
+   - Kaçırma mesafeleri 0 ile 7x10^7 birim arasında değişiyor.
+
+Sonuç olarak bu grafik; asteroidlerin hız, mesafe ve tehlike sınıflandırması arasındaki ilişkiyi bizlere etkili bir şekilde göstermektedir.
+
+4. Hız ve mesafe arasında güçlü bir doğrusal ilişki görünmüyor, ancak tehlikeli ve tehlikesiz asteroidlerin dağılımında bir örüntü gözlemlenmektedir.
 
 ### Box-Plot Diyagramı ve Analizi
 <img src="img/box-plot.png" width="400" height="200">
 
+## Tehlikeli ve Tehlikesiz Asteroidlerin Çap Karşılaştırması
+
+- Her iki kategorideki asteroidlerin medyan çapları benzer ve nispeten küçüktür
+- Her iki gruptaki asteroidlerin çoğu düşük çap aralığında yoğunlaşmıştır
+- Her iki kategoride de aykırı değerler bulunmakta, özellikle tehlikesiz grupta 80 birime kadar ulaşan büyük çaplı asteroidler görülmektedir
+- Tehlikesiz kategoride daha fazla aşırı aykırı değer bulunmaktadır
+- Her iki gruptaki çap değişkenliği (kutu boyutu) benzerdir
+
+Bu diyagram, çoğu asteroidin küçük çaplı olduğunu, ancak özellikle tehlikesiz asteroidler arasında çok daha büyük boyutlara sahip istisnai örnekler bulunduğunu bize göstermektedir.
+
 ### Korelasyon Matrisi Analizi
-<img src="img/Correlation.png" width="400" height="200">
+<img src="img/Correlation.png" width="500" height="400">
 
 ### Güçlü Korelasyonlar
 - est_diameter_min ve est_diameter_max arasında mükemmel korelasyon (1.0) bulunması, aynı özelliği ölçtüklerini gösteriyor.
@@ -81,7 +113,7 @@ Uzay madenciliği ve savunma şirketleri için asteroidlerin tehlike seviyelerin
 
 ### Önerilen ML Çözümü
 **Random Forest veya XGBoost Sınıflandırma** algoritması önerilir çünkü:
-- Veri setimizde binary sınıflandırma problemi var (hazardous/non-hazardous)
+- Veri setimizde binary sınıflandırma problemi var. (hazardous/non-hazardous)
 - Çoklu değişken ilişkilerini iyi yakalar.
 - Sayısal ve kategorik değişkenlerle çalışabilir.
 - Aykırı değerlere karşı dirençlidir.
