@@ -23,7 +23,6 @@ NASA Near Earth Objects veri seti kullanılarak yapılan veri analizi projesi.
 - Seaborn
 - Matplotlib
 
-## Sonuç ve Öneriler
 ## Veri Ön İşleme ve Temizleme
 Veri setine random NaN değerler eklendi ve sayısal değişkenler için median değerleri kullanılarak eksik veriler dolduruldu.
 
@@ -46,8 +45,21 @@ Veri setine random NaN değerler eklendi ve sayısal değişkenler için median 
 ### Box-Plot Diyagramı ve Analizi
 <img src="img/box-plot.png" width="400" height="200">
 
-### Korelasyon Analizi
+### Korelasyon Matrisi Analizi
 <img src="img/Correlation.png" width="400" height="200">
+### Güçlü Korelasyonlar
+- est_diameter_min ve est_diameter_max arasında mükemmel korelasyon (1.0) bulunması, aynı özelliği ölçtüklerini gösteriyor
+- Mutlak parlaklık (absolute_magnitude) ile çap ölçümleri arasında güçlü negatif korelasyon (-0.55) var, bu büyük objelerin daha düşük mutlak parlaklığa sahip olduğunu gösteriyor
+
+### Orta Düzey Korelasyonlar
+- Göreceli hız (relative_velocity) ve kaçırma mesafesi (miss_distance) arasında orta düzey pozitif korelasyon (0.33)
+- Göreceli hız ve mutlak parlaklık arasında orta düzey negatif korelasyon (-0.35)
+
+### Tehlike Sınıflandırması İçin Önemli Bulgular
+1. Çap ölçümleri birbiriyle tamamen ilişkili olduğundan birini kullanmak yeterli
+2. Mutlak parlaklık, birçok değişkenle ilişkili olduğu için iyi bir tahmin değişkeni olabilir
+3. Hız ve mesafe arasındaki ilişki, tehlike değerlendirmesinde önemli olabilir
+4. Çoğu değişken birbirinden bağımsız, bu da sınıflandırma için benzersiz bilgiler sağlayabileceklerini gösteriyor
 
 ## Sonuç ve Öneriler
 
