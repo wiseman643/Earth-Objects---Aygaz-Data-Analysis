@@ -95,7 +95,7 @@ Sonuç olarak bu grafik; asteroidlerin hız, mesafe ve tehlike sınıflandırmas
 ### Box-Plot Diyagramı ve Analizi
 <img src="img/box-plot.png" width="400" height="200">
 
-## Tehlikeli ve Tehlikesiz Asteroidlerin Çap Karşılaştırması
+#### Tehlikeli ve Tehlikesiz Asteroidlerin Çap Karşılaştırması
 
 - Her iki kategorideki asteroidlerin medyan çapları benzer ve nispeten küçüktür
 - Her iki gruptaki asteroidlerin çoğu düşük çap aralığında yoğunlaşmıştır
