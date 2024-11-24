@@ -72,8 +72,6 @@ Bu dağılım, veri setimizdeki asteroidlerin çoğunluğunun küçük çaplı o
 ### Asteroid Hızı ve Mesafesi İlişkisi Analizi 🏃‍♂️
 <img src="img/distance-velocity.png" width="400" height="200">
 
-## Asteroid Hızı ve Mesafesi İlişkisi Analizi
-
 1. Grafik iki ana değişkeni gösteriyor:
    - X ekseni: Göreceli Hız
    - Y ekseni: Kaçırma Mesafesi (10^7 biriminde)
