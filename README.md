@@ -23,7 +23,7 @@ NASA Near Earth Objects veri seti kullanılarak yapılan veri analizi projesi.
 - Seaborn
 - Matplotlib
 
-## Veri Ön İşleme ve Temizleme 
+## Veri Ön İşleme ve Temizleme 👩🏻‍🔧 
 Veri setine random NaN değerler eklendi ve sayısal değişkenler için median değerleri kullanılarak eksik veriler dolduruldu.
 
 ## Eksik Veri Analizi 🔎
@@ -64,7 +64,7 @@ Bu işlemle, veri setimizi analize uygun hale getirdik.
 
 ##### **Bu görselleştirme, veri tabanımızdaki asteroidlerin yalnızca küçük bir yüzdesinin Dünya için potansiyel tehlike oluşturduğunu göstermektedir.**
 
-### Asteroidlerin Çap Dağılımı Analizi 📏
+### Asteroidlerin Çap Dağılımı Analizi 📐
 <img src="img/asteroid_diameters.png" width="400" height="200">
 
 Bu dağılım, veri setimizdeki asteroidlerin çoğunluğunun küçük çaplı olduğunu, çok az sayıda asterodin ise büyük çaplara sahip olduğunu göstermektedir.
