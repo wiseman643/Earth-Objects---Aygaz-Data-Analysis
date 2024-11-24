@@ -23,7 +23,7 @@ NASA Near Earth Objects veri seti kullanılarak yapılan veri analizi projesi.
 - Seaborn
 - Matplotlib
 
-## Veri Ön İşleme ve Temizleme 👩🏻‍🔧 
+## Veri Ön İşleme ve Temizleme 🛠️ 
 Veri setine random NaN değerler eklendi ve sayısal değişkenler için median değerleri kullanılarak eksik veriler dolduruldu.
 
 ## Eksik Veri Analizi 🔎
