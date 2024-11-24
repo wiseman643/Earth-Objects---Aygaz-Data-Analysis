@@ -27,9 +27,28 @@ NASA Near Earth Objects veri seti kullanılarak yapılan veri analizi projesi.
 Veri setine random NaN değerler eklendi ve sayısal değişkenler için median değerleri kullanılarak eksik veriler dolduruldu.
 
 ## Eksik Veri Analizi
-### Temizleme Öncesi Eksik Değerler
 
-### Temizleme Sonrası Eksik Değerler
+Veri setindeki başlangıç eksik değer analizi şunu göstermektedir:
+- Tüm değişkenlerde yaklaşık 4,300-4,500 arasında eksik değer bulunmaktadır.
+- En çok eksik değer göreceli hız (relative_velocity) değişkeninde: 4,532 eksik veri.
+- En az eksik değer yörünge cismi (orbiting_body) değişkeninde: 4,329 eksik veri.
+- Eksik değerlerin tüm değişkenlerde benzer oranlarda olması, verilerin rastgele kayıp olduğunu göstermektedir.
+
+Bu durum, veri setine eklediğimiz yapay NaN değerlerinin başarıyla eklendiğini ve veri temizleme işleminin gerekli olduğunu göstermektedir.
+
+## Eksik Değerlerin Doldurulması İşlemi
+
+- Sayısal değişkenlerdeki eksik değerler medyan değerleri ile dolduruldu.
+- Kategorik değişkenler (name, orbiting_body, sentry_object, hazardous) eksik değer içermiyor.
+- Sayısal değişkenlerde doldurulan eksik değer sayıları:
+  - Göreceli hız (relative_velocity): 4,532
+  - Maksimum çap (est_diameter_max): 4,460
+  - Mutlak parlaklık (absolute_magnitude): 4,412
+  - Minimum çap (est_diameter_min): 4,397
+  - Kaçırma mesafesi (miss_distance): 4,423
+  - ID: 4,502
+
+Bu işlemle, veri setimizi analize uygun hale getirdik.
 
 ## Görselleştirmeler ve Analizler
 
