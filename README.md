@@ -1,4 +1,4 @@
-# Aygaz Veri Analizi Projesi
+# Aygaz Veri Analizi Projesi 💥
 
 ## Proje Hakkında
 NASA Near Earth Objects veri seti kullanılarak yapılan veri analizi projesi.
